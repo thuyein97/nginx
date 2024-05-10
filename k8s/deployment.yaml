@@ -27,8 +27,7 @@ metadata:
 spec:
   selector:
     app: tetris
+  type: NodePort
   ports:
-  - protocol: TCP
-    port: 80                 # Expose port 80
-    targetPort: 80
-  type: LoadBalancer
+    - port: 80
+      name: http
