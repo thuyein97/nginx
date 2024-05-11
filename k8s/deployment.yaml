@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: tetris
-        image: secret-santa:latest
+        image: secret-santa:39-39
         ports:
         - containerPort: 8080   # Use port 3000
 
